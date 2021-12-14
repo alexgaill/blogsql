@@ -13,9 +13,9 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `blog`
 --
-
+  CREATE DATABASE IF NOT EXISTS blog;
 -- --------------------------------------------------------
-
+  USE blog;
 --
 -- Structure de la table `article`
 --
